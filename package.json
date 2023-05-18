@@ -1,0 +1,20 @@
+{
+    "name": "waves8ball",
+    "version": "0.2.0",
+    "description": "",
+    "author": "Waves Protocol",
+    "scripts": {
+        "build": "webpack",
+        "start": "http-server ./ -p 8081"
+    },
+    "dependencies": {
+        "@waves.exchange/provider-web": "*",
+        "@waves/signer": "*",
+        "@waves/waves-transactions": "*",
+        "webpack": "*"
+    },
+    "devDependencies": {
+        "webpack-cli": "*",
+        "http-server": "*"
+    }
+}
